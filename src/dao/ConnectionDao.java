@@ -9,7 +9,7 @@ public class ConnectionDao {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			con = DriverManager.getConnection(
-					"jdbc:mysql://localhost/clinicdb?useSSL=false", "root", "");
+					"jdbc:mysql://172.16.51.41/clinicdb?useSSL=false", "soisuser", "Sois@123");
 		} catch (Exception e) {
 			System.out.println(e);
 		}
